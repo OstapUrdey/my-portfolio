@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.logo .web {
+  color: #4d5ae5;
+}
+
+.logo .studio {
+  color: #2e2f42;
+}
+
+.nav .links .studio,
+.nav .links .portfolio,
+.nav .links .contacts {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav .links .studio:hover,
+.nav .links .portfolio:hover,
+.nav .links .contacts:hover,
+.nav .links .studio:active,
+.nav .links .portfolio:active,
+.nav .links .contacts:active {
+  color: #404bbf;
+}
+
+.address .mail-tel .mail,
+.address .mail-tel .tel {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.address .mail-tel .mail:hover,
+.address .mail-tel .tel:hover,
+.address .mail-tel .mail:active,
+.address .mail-tel .tel:active {
+  color: #404bbf;
+}
+
+.h1 {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.sec-button {
+  background-color: #2e2f42;
+}
+
+.main .sec-button .button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.main .sec-button .button:hover {
+  background-color: #404bbf;
+}
+
+.h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.sec-our-team {
+  background-color: #f4f4fd;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
