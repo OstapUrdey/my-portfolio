@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -13,13 +13,13 @@ a {
 }
 
 .logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 21px;
-}
-
-.logo .web {
-  color: #4d5ae5;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo .studio {
@@ -31,15 +31,16 @@ a {
 .nav .links .contacts {
   color: #2e2f42;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 0.2em;
 }
 .nav .links .studio:hover,
 .nav .links .portfolio:hover,
 .nav .links .contacts:hover,
-.nav .links .studio:active,
-.nav .links .portfolio:active,
-.nav .links .contacts:active {
+.nav .links .studio:focus,
+.nav .links .portfolio:focus,
+.nav .links .contacts:focus {
   color: #404bbf;
 }
 
@@ -47,62 +48,74 @@ a {
 .address .mail-tel .tel {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 0.2em;
 }
 
 .address .mail-tel .mail:hover,
 .address .mail-tel .tel:hover,
-.address .mail-tel .mail:active,
-.address .mail-tel .tel:active {
+.address .mail-tel .mail:focus,
+.address .mail-tel .tel:focus {
   color: #404bbf;
 }
 
-.h1 {
+.title {
   color: #ffffff;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
 }
 .sec-button {
   background-color: #2e2f42;
+  cursor: pointer;
 }
 
 .main .sec-button .button {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   background-color: #4d5ae5;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
-.main .sec-button .button:hover {
+.main .sec-button .button:hover,
+.main .sec-button .button:focus {
   background-color: #404bbf;
 }
 
-.h2 {
+.subtitle {
   color: #2e2f42;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .sec-our-team {
   background-color: #f4f4fd;
 }
 
-h3 {
+.heading {
   color: #2e2f42;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-weight: 500;
 }
 
-p {
+.paragraph {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 0.2em;
 }
 
 footer {
