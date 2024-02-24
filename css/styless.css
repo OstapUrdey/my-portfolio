@@ -42,10 +42,13 @@ a {
 .address .links .mail-tel {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address .links .mail-tel:hover,
@@ -96,7 +99,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.card {
+.card .card-mark {
   background-color: #ffffff;
 }
 
