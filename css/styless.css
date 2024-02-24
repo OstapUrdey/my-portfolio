@@ -26,7 +26,7 @@ a {
   color: #2e2f42;
 }
 
-.nav .links .studio {
+.nav .links .menu-nav {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -34,32 +34,12 @@ a {
   letter-spacing: 0.02em;
 }
 
-.nav .links .portfolio {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.nav .links .contacts {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.nav .links .studio:hover,
-.nav .links .portfolio:hover,
-.nav .links .contacts:hover,
-.nav .links .studio:focus,
-.nav .links .portfolio:focus,
-.nav .links .contacts:focus {
+.nav .links .menu-nav:hover,
+.nav .links .menu-nav:focus {
   color: #404bbf;
 }
 
-.address .mail-tel .mail {
+.address .links .mail-tel {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -68,19 +48,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.address .mail-tel .tel {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
-.address .mail-tel .mail:hover,
-.address .mail-tel .tel:hover,
-.address .mail-tel .mail:focus,
-.address .mail-tel .tel:focus {
+.address .links .mail-tel:hover,
+.address .links .mail-tel:focus {
   color: #404bbf;
 }
 
@@ -124,6 +93,10 @@ a {
 }
 
 .sec-ourteam {
+  background-color: #f4f4fd;
+}
+
+.card {
   background-color: #ffffff;
 }
 
