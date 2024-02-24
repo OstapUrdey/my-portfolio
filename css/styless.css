@@ -26,8 +26,22 @@ a {
   color: #2e2f42;
 }
 
-.nav .links .studio,
-.nav .links .portfolio,
+.nav .links .studio {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.nav .links .portfolio {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .nav .links .contacts {
   color: #2e2f42;
   font-size: 16px;
@@ -35,6 +49,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+
 .nav .links .studio:hover,
 .nav .links .portfolio:hover,
 .nav .links .contacts:hover,
@@ -44,7 +59,15 @@ a {
   color: #404bbf;
 }
 
-.address .mail-tel .mail,
+.address .mail-tel .mail {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
 .address .mail-tel .tel {
   color: #434455;
   font-size: 16px;
@@ -82,6 +105,7 @@ a {
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .main .sec-button .button:hover,
@@ -99,8 +123,8 @@ a {
   text-transform: capitalize;
 }
 
-.sec-our-team {
-  background-color: #f4f4fd;
+.sec-ourteam {
+  background-color: #ffffff;
 }
 
 .heading {
