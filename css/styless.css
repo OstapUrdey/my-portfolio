@@ -76,7 +76,6 @@ address {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -97,10 +96,8 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-logo {
