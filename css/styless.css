@@ -39,7 +39,7 @@ address {
 
 /**==========FOR-MANY=========**/
 
-.visually-hidden {
+.subtitle {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -50,7 +50,7 @@ address {
   margin-bottom: 72px;
 }
 
-.visually-hidden-one {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -65,12 +65,17 @@ address {
 
 /**===========HEADER========**/
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -149,7 +154,7 @@ address {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
-  min-width: 496px;
+  max-width: 496px;
 }
 
 .hero {
@@ -178,7 +183,7 @@ address {
   border-radius: 4px;
   padding: 16px 32px;
   text-align: center;
-  min-width: 168px;
+  min-width: 169px;
   height: 56px;
   border: none;
 }
