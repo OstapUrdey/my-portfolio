@@ -457,6 +457,8 @@ footer {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
 }
 
 .footer-text-social {
