@@ -227,8 +227,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-order-btn:hover,
-.hero-order-btn:focus {
+.hero-order-btn:hover {
   background-color: #404bbf;
 }
 
