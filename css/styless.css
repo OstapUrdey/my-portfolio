@@ -660,7 +660,6 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 48px;
   margin-bottom: 16px;
 }
 
@@ -792,6 +791,8 @@ footer {
 
 .modal-btn-send {
   display: block;
+  margin: 0 auto;
+  text-align: center;
   min-width: 169px;
   height: 56px;
   font-weight: 500;
