@@ -592,8 +592,8 @@ footer {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open {
@@ -701,6 +701,10 @@ footer {
   fill: #4d5ae5;
 }
 
+.modal-filed-comment {
+  margin-bottom: 16px;
+}
+
 .modal-input-text {
   font-size: 12px;
   line-height: 1.17;
@@ -786,11 +790,6 @@ footer {
   fill: #f4f4fd;
   border: none;
   background-color: #404bbf;
-}
-
-.modal-btn {
-  display: flex;
-  justify-content: center;
 }
 
 .modal-btn-send {
