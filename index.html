@@ -598,7 +598,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -655,7 +655,6 @@
           <div class="modal-filed">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              type="text"
               name="user-comment"
               class="modal-input-text"
               id="user-comment"
@@ -671,15 +670,12 @@
               class="modal-check visually-hidden"
             />
             <label for="privacy" class="modal-check-text">
-              <div class="modal-check-icon-clic">
+              <span class="modal-check-icon-clic">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </div>
-              <p class="modal-check-text-privacy">
-                I accept the terms and conditions of the
-                <a href="" class="modal-check-link">Privacy Policy</a>
-              </p>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="" class="modal-check-link">Privacy Policy</a>
             </label>
           </div>
         </form>
