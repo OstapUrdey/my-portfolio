@@ -3,9 +3,6 @@ body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   background-color: #212428;
-  padding-right: 150px;
-  padding-bottom: 24px;
-  padding-left: 150px;
 }
 
 h1,
@@ -67,8 +64,11 @@ address {
 }
 
 .container {
-  width: 1620px;
+  width: 100%;
   margin: 0 auto;
+  padding-right: 150px;
+  padding-bottom: 24px;
+  padding-left: 150px;
 }
 
 /**===================**/
@@ -80,6 +80,7 @@ header {
 .header-container {
   display: flex;
   margin-top: 5px;
+  height: 70px;
 }
 
 .header-navigation {
@@ -122,48 +123,77 @@ header {
   font-weight: 600;
   font-size: 20px;
   color: #fff;
+  white-space: nowrap;
 }
 /**===================**/
-.ellipse-container {
-  position: relative;
-  width: 750px;
-  height: 700px;
-  margin: 0 auto; /* Центруємо контейнер на сторінці */
+
+/**==========HERO=========**/
+.hero {
 }
 
-.ellipse1,
-.ellipse2 {
+.hero-container {
+}
+
+.hero-image {
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  color: #fff;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  top: 45%;
+  left: 15%;
+  transform: translate(-45%, -15%);
+  z-index: 1;
+}
+
+.hero-text-above {
+  font-weight: 700;
+  font-size: 140px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0);
+}
+
+.hero-elipse-one {
+  width: 750px;
+  height: 700px;
+  border-radius: 100%;
   background-color: rgba(217, 217, 217, 0);
   border-width: 35px;
   border-style: solid;
   border-color: #e40037;
-  overflow: hidden; /* Обрізаємо контент, що виходить за межі еліпса */
-}
-
-.ellipse2 {
-  filter: blur(80px);
-}
-
-.image-inside-ellipse {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.text-before,
-.text-after {
-  text-align: center;
-  color: white;
-  margin-top: 20px; /* Відступ від верхнього краю */
-}
-
-.text-after {
   position: absolute;
-  bottom: 20px; /* Відступ від нижнього краю */
-  left: 0;
-  width: 100%;
+  top: 127px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+.hero-elipse-two {
+  width: 750px;
+  height: 700px;
+  border-radius: 100%;
+  background-color: rgba(217, 217, 217, 0);
+  border-width: 35px;
+  border-style: solid;
+  border-color: #e40037;
+  filter: blur(80px);
+  position: absolute;
+  top: 127px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-img {
+}
+
+.hero-text-under {
+  font-weight: 700;
+  font-size: 153px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+/**===================**/
